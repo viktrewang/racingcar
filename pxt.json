@@ -1,0 +1,22 @@
+{
+    "name": "红外遥控六足机器人",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "mbit": "github:zhonghuage2500/ruike_mbit#8e08f3f3ebba729474ccc132bac96dbeafbfe152",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
